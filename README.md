@@ -31,4 +31,9 @@ GitHubDesktop-Windows-x64.exe
 
 ## 本地提交
 登录GitHub Desktop，拉取仓库（Repository）到本地（Clone仓库，pull最新），修改代码，显示差异（类似文本历史版本的对比）
-填写描述，提交到main（上传到仓库并合并，Commit，push分支）
+填写描述，提交到main（上传到仓库并合并，Commit，push分支），提示上传成功
+
+网页查看确认完成，微调Markdown语法错误，提交修改
+
+Desktop本地拉取有1个变动，本地不存在，执行拉取origin，成功后刷新仓库，显示无本地改动
+编辑本次的网页和本地操作记录，重新填写描述后，上传仓库
