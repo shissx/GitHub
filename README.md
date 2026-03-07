@@ -11,6 +11,9 @@ nas apps
 ## GitHub Desktop
 下载安装GitHub Desktop并汉化
 
+### 帮助
+https://docs.github.com/zh/desktop
+
 ### 官方版
 https://desktop.github.com/
 https://github.com/desktop/desktop
