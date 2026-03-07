@@ -11,7 +11,7 @@ nas apps
 ## GitHub Desktop
 下载安装GitHub Desktop并汉化
 
-###官方版
+### 官方版
 https://desktop.github.com/
 https://github.com/desktop/desktop
 GitHubDesktopSetup-x64.exe
