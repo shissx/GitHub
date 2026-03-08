@@ -3,8 +3,15 @@ nas apps
 ## nas，只是个开头，竟然放了这么久了
 
 # 2026-03-07 学习Gihub的第一天
+## 网页汉化
+油猴网站
+https://www.tampermonkey.net/index.php?browser=chrome&locale=zh
+汉化脚本
+https://github.com/maboloshi/github-chinese
+直接安装
+https://www.tampermonkey.net/script_installation.php#url=https://github.com/maboloshi/github-chinese/raw/gh-pages/main.user.js
 
-## 分支
+## 分支提交
 网页修改README.md，新开分支（Branch），然后写描述后提交（Commit）
 挺好，先理解为复制备份了一份，并且写了个简单的复制说明
 
