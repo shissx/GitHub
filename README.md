@@ -6,10 +6,13 @@ nas apps
 ## 网页汉化
 油猴网站
 https://www.tampermonkey.net/index.php?browser=chrome&locale=zh
+
 汉化脚本
 https://github.com/maboloshi/github-chinese
+
 直接安装
 https://www.tampermonkey.net/script_installation.php#url=https://github.com/maboloshi/github-chinese/raw/gh-pages/main.user.js
+
 
 ## 分支提交
 网页修改README.md，新开分支（Branch），然后写描述后提交（Commit）
