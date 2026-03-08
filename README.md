@@ -57,8 +57,7 @@ https://git-scm.com/install/windows
 Git-2.53.0-64-bit.exe
 ## 常用命令
 
-<<<<<<< HEAD
-###暂存提交
+### 暂存提交
 ```
 # 1. 查看当前状态（确认修改的文件）
 git status
@@ -82,7 +81,7 @@ git commit -m "日常更新"
 git push
 ```
 
-###直接提交
+### 直接提交
 ```
 # 1. 查看当前状态
 git status
