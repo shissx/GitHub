@@ -1,8 +1,12 @@
-# nas
-nas apps
-## nas，只是个开头，竟然放了这么久了
+---
+# Gihub 学习日记
+---
 
-# 2026-03-07 学习Gihub的第一天
+# 2024-06-5
+## NAS
+NAS apps，新建仓库，已经放了这么久了！
+
+# 2026-03-07
 ## 网页汉化
 油猴网站
 https://www.tampermonkey.net/index.php?browser=chrome&locale=zh
@@ -42,7 +46,7 @@ Win客户端下载地址
 https://github.com/zetaloop/desktop/releases/tag/release-3.5.4
 GitHubDesktop-Windows-x64.exe
 
-## 本地提交
+### 本地提交
 登录GitHub Desktop，拉取仓库（Repository）到本地（Clone仓库，pull最新），修改代码，显示差异（类似文本历史版本的对比）
 填写描述，提交到main（上传到仓库并合并，Commit，push分支），提示上传成功
 
@@ -51,12 +55,14 @@ GitHubDesktop-Windows-x64.exe
 Desktop本地拉取有1个变动，本地不存在，执行拉取origin，成功后刷新仓库，显示无本地改动
 编辑本次的网页和本地操作记录，重新填写描述后，上传仓库
 
-# 安装Git
+# 2026-03-08
+
+## 安装Git
 用于GitHub Desktop的补充和自动化操作
 https://git-scm.com/install/windows
 Git-2.53.0-64-bit.exe
-## 常用命令
-
+### 常用命令
+---
 ### 暂存提交
 ```
 # 1. 查看当前状态（确认修改的文件）
@@ -137,7 +143,7 @@ git push --force
 git push --force-with-lease
 ```
 
-# 安装VsCode
+## 安装VsCode
 安装中文插件
 可以在GitHub Desktop中链接打开代码文件夹
 安装Markdown预览
