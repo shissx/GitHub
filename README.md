@@ -55,7 +55,88 @@ Desktop本地拉取有1个变动，本地不存在，执行拉取origin，成功
 用于GitHub Desktop的补充和自动化操作
 https://git-scm.com/install/windows
 Git-2.53.0-64-bit.exe
+## 常用命令
 
+<<<<<<< HEAD
+###暂存提交
+```
+# 1. 查看当前状态（确认修改的文件）
+git status
+# 应该显示：modified: README.md
+
+# 2. 查看具体修改内容
+git diff
+# 显示您添加的"常用命令"部分
+
+# 3. 添加文件到暂存区
+git add README.md
+
+# 4. 查看已暂存的修改（确认要提交的内容）
+git diff --staged
+# 应该显示同样的修改内容
+
+# 5. 提交修改
+git commit -m "日常更新"
+
+# 6. 推送到远程仓库
+git push
+```
+
+###直接提交
+```
+# 1. 查看当前状态
+git status
+# 应该显示：modified: README.md
+
+# 2. 查看具体修改内容
+git diff
+# 确认修改内容
+
+# 3. 直接提交所有已跟踪文件的修改（跳过暂存区）
+git commit -a -m "日常更新"
+# 或者
+git commit -am "日常更新"
+
+# 4. 推送到远程仓库
+git push
+```
+
+### 直接提交示例
+```
+git status
+git diff
+git commit -am "日常更新"
+git push
+```
+
+### 最简提交示例
+```
+git commit -am "日常更新"
+git push
+或
+git commit -am "日常更新" && git push
+或
+git commit -am "日常更新"; git push
+或，简单不加引号
+git commit -am 日常更新
+git push
+```
+
+### 撤回提交
+```
+# 撤回最近一次提交，但保留修改（文件回到工作区）
+git reset --soft HEAD~1
+# 撤回最近2次提交，保留修改
+git reset --soft HEAD~2
+```
+### 强制推送
+```
+# 强制推送（覆盖远程）
+git push --force
+
+# 或者更安全的强制推送
+git push --force-with-lease
+```
 
 # 安装VsCode
 安装中文插件
