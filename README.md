@@ -1,8 +1,8 @@
----
-# Gihub 学习日记
----
 
-# 2024-06-5
+# Gihub 学习日记
+
+
+# 2024-06-25
 ## NAS
 NAS apps，新建仓库，已经放了这么久了！
 
@@ -61,8 +61,7 @@ Desktop本地拉取有1个变动，本地不存在，执行拉取origin，成功
 用于GitHub Desktop的补充和自动化操作
 https://git-scm.com/install/windows
 Git-2.53.0-64-bit.exe
-### 常用命令
----
+### `常用命令`
 ### 暂存提交
 ```
 # 1. 查看当前状态（确认修改的文件）
