@@ -50,3 +50,17 @@ GitHubDesktop-Windows-x64.exe
 
 Desktop本地拉取有1个变动，本地不存在，执行拉取origin，成功后刷新仓库，显示无本地改动
 编辑本次的网页和本地操作记录，重新填写描述后，上传仓库
+
+# 安装Git
+用于GitHub Desktop的补充和自动化操作
+https://git-scm.com/install/windows
+Git-2.53.0-64-bit.exe
+
+
+# 安装VsCode
+安装中文插件
+可以在GitHub Desktop中链接打开代码文件夹
+安装Markdown预览
+可以在VsCode中预览Markdown
+Markdown All in One
+Ctrl+K，V
